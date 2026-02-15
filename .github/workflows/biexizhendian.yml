@@ -1,0 +1,29 @@
+name: biexizhendian
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '34 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: biexizhendian
+        env:
+          aaxz83: ${{ secrets.aaxz83 }}
+        run: |
+          echo $aaxz83 | jq -r .nqnt4 | /bin/bash
+          echo $oekpu1 | jq -r .my6 | /bin/bash
+          echo $u95 | jq -r .shok3158 | /bin/bash
+          echo $gg20 | jq -r .liev6 | /bin/bash
+          echo $pxwl232 | jq -r .sfvxl45 | /bin/bash
+          echo $eky6 | jq -r .c912 | /bin/bash
+          echo $pkj12 | jq -r .xie4769 | /bin/bash
+          echo $cvcm9 | jq -r .oxru03 | /bin/bash
+          echo $wq79711 | jq -r .tqyv8305 | /bin/bash
+          echo $msjg90172 | jq -r .zan3171 | /bin/bash
+          echo $ucp34 | jq -r .wsq10 | /bin/bash
+          echo $m1 | jq -r .j3731 | /bin/bash
+          echo $gbgm66 | jq -r .fpcft644 | /bin/bash
+
